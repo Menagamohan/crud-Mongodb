@@ -1,0 +1,57 @@
+/* App.css */
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Navbar container */
+nav {
+  background-color: #333;  /* Dark background for the navbar */
+  overflow: hidden;       /* Ensures the navbar doesn't overflow the screen */
+  height: 50px;
+  
+}
+
+/* Navbar links */
+nav ul {
+  list-style-type: none;  /* Removes default list styling */
+  padding: 0;
+  margin: 0;
+  display: flex;           /* Flexbox to display items horizontally */
+  justify-content:baseline; /* Center the navbar links */
+}
+
+/* Each navbar link */
+nav ul li {
+  margin: 0 20px;   /* Adds space between the navbar links */
+}
+
+nav ul li a {
+  color: white;       /* White text color for links */
+  text-decoration: none; /* Removes the underline from links */
+  padding: 14px 20px;   /* Adds padding for better clickable area */
+  display: block;       /* Makes the anchor tags block-level to fit the padding */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  background-color: #575757; /* Change the background color on hover */
+  border-radius: 4px;       /* Round the corners */
+  transition: background-color 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+/* Styling for the App title */
+h1 {
+  text-align: center;
+  color: #333;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.nav-link .icon {
+  margin-right: 8px; /* Adds space between the icon and text */
+  font-size: 18px;   /* Adjusts the size of the icon */
+}
